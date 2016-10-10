@@ -20,12 +20,14 @@ class Problem1Tests: QuickSpec {
         
         describe("Problem1") {
             context("when input is 10") {
+                var answer: Int!
+                
                 beforeEach {
-                    sut.input(input: 10)
+                    answer = sut.answer(input: 10)
                 }
                 
                 it("answer should be 23") {
-                    expect(sut.answer()).to(equal(23))
+                    expect(answer).to(equal(23))
                 }
             }
         }
