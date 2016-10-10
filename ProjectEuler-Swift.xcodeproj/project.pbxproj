@@ -18,6 +18,7 @@
 		4CC20B271DAB35F70065266B /* Problem2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B261DAB35F70065266B /* Problem2Tests.swift */; };
 		4CC20B291DAB37460065266B /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B281DAB37460065266B /* Problem2.swift */; };
 		4CC20B2A1DAB3B4F0065266B /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B281DAB37460065266B /* Problem2.swift */; };
+		4CC20B2C1DAB3F2B0065266B /* Problem3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2B1DAB3F2B0065266B /* Problem3Tests.swift */; };
 		CA0DE8EA9CA360F52FEAF39E /* Pods_ProjectEuler_Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C15A1D968C3D53007E5F77E /* Pods_ProjectEuler_Swift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		4CC20B0E1DAB2D880065266B /* Benchmark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Benchmark.framework; path = "../../Library/Developer/Xcode/DerivedData/ProjectEuler-Swift-ffxtluiboywhhqccygohefywirdq/Build/Products/Debug/Benchmark/Benchmark.framework"; sourceTree = "<group>"; };
 		4CC20B261DAB35F70065266B /* Problem2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem2Tests.swift; path = Problems/Problem2Tests.swift; sourceTree = "<group>"; };
 		4CC20B281DAB37460065266B /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem2.swift; path = Problems/Problem2.swift; sourceTree = "<group>"; };
+		4CC20B2B1DAB3F2B0065266B /* Problem3Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem3Tests.swift; path = Problems/Problem3Tests.swift; sourceTree = "<group>"; };
 		5712E1B5F439AA4A9BE1F736 /* Pods_ProjectEuler_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 			children = (
 				4CC20B0C1DAB2B650065266B /* Problem1Tests.swift */,
 				4CC20B261DAB35F70065266B /* Problem2Tests.swift */,
+				4CC20B2B1DAB3F2B0065266B /* Problem3Tests.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				4CC20B251DAB2F520065266B /* main.swift in Sources */,
 				4CC20B231DAB2F4F0065266B /* Problem.swift in Sources */,
 				4CC20B0D1DAB2B650065266B /* Problem1Tests.swift in Sources */,
+				4CC20B2C1DAB3F2B0065266B /* Problem3Tests.swift in Sources */,
 				4CC20B271DAB35F70065266B /* Problem2Tests.swift in Sources */,
 				4CC20B241DAB2F4F0065266B /* Problem1.swift in Sources */,
 			);
