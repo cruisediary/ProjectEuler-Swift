@@ -15,20 +15,27 @@
 import Foundation
 
 class Problem2: Problem {
-    func answer(input: Int) -> Int {
-        //below input
-        var value: (Int, Int) = (1, 2)
-        var sum: Int = 0
-        while (value.1 < input) {
-            if value.1 % 2 == 0 {
-                sum += value.1
-            }
-            value = next(value: value)
+    
+    struct State {
+        var value: (Int, Int)
+        
+        func next() -> State {
+            return State(value: (value.1, value.0 + value.1))
         }
-        return sum
+        
+        func sum() -> Int {
+            return value.1
+        }
     }
     
-    func next(value:(Int, Int)) -> (Int, Int) {
-        return (value.1, value.0 + value.1)
+    func answer(input: Int) -> Int {
+        //below input
+        var state: State = State(value: (1, 2))
+        var sum: Int = 0
+        while state.sum() < input {
+            sum += state.sum()
+            state = state.next().next().next() // 2 -> ? -> ? -> 8 -> ? -> ? -> 34 <= (3n + 1)
+        }
+        return sum
     }
 }
