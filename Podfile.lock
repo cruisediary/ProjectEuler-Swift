@@ -1,0 +1,18 @@
+PODS:
+  - Benchmark (1.2)
+  - Nimble (5.0.0)
+  - Quick (0.10.0)
+
+DEPENDENCIES:
+  - Benchmark
+  - Nimble
+  - Quick
+
+SPEC CHECKSUMS:
+  Benchmark: a226a41bd3e8eb71c9799aff5103f4be45b7fb9b
+  Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+
+PODFILE CHECKSUM: 94fba35af57cdb087b90d6207b55b5feaab386f9
+
+COCOAPODS: 1.1.0.rc.2

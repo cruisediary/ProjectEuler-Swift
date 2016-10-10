@@ -15,7 +15,7 @@ target "ProjectEuler-Swift" do
 	pod 'Benchmark'
 end
 
-targer "ProjectEuler-SwiftTests" do
+target "ProjectEuler-Swift-Tests" do
 	pod 'Quick'
 	pod 'Nimble'
 end
