@@ -12,3 +12,6 @@ print("Hello, World!")
 
 let p1 = Problem1()
 print(p1.answer(input: 1000)) //get 233168
+
+let p2 = Problem2()
+print(p2.answer(input: 4000000))
