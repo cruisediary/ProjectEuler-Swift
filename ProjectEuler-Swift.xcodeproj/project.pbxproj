@@ -10,15 +10,18 @@
 		4C2A2BB31DAB26DC00C110FC /* ProjectEuler_Swift_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2A2BB21DAB26DC00C110FC /* ProjectEuler_Swift_Tests.swift */; };
 		4C9F508F1DAB262200F172A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F508E1DAB262200F172A2 /* main.swift */; };
 		4CC20B081DAB2A4D0065266B /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B071DAB2A4D0065266B /* Problem.swift */; };
-		4CC20B0A1DAB2B090065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B091DAB2B090065266B /* Problem1.swift */; };
 		4CC20B0D1DAB2B650065266B /* Problem1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B0C1DAB2B650065266B /* Problem1Tests.swift */; };
 		4CC20B231DAB2F4F0065266B /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B071DAB2A4D0065266B /* Problem.swift */; };
-		4CC20B241DAB2F4F0065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B091DAB2B090065266B /* Problem1.swift */; };
 		4CC20B251DAB2F520065266B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F508E1DAB262200F172A2 /* main.swift */; };
 		4CC20B271DAB35F70065266B /* Problem2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B261DAB35F70065266B /* Problem2Tests.swift */; };
 		4CC20B291DAB37460065266B /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B281DAB37460065266B /* Problem2.swift */; };
 		4CC20B2A1DAB3B4F0065266B /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B281DAB37460065266B /* Problem2.swift */; };
 		4CC20B2C1DAB3F2B0065266B /* Problem3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2B1DAB3F2B0065266B /* Problem3Tests.swift */; };
+		4CC20B2E1DAB3F9D0065266B /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2D1DAB3F9D0065266B /* Problem3.swift */; };
+		4CC20B301DAB3FAA0065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2F1DAB3FAA0065266B /* Problem1.swift */; };
+		4CC20B311DAB40120065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2F1DAB3FAA0065266B /* Problem1.swift */; };
+		4CC20B321DAB40140065266B /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2D1DAB3F9D0065266B /* Problem3.swift */; };
+		4CC20B341DAB44D60065266B /* BenchMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B331DAB44D60065266B /* BenchMark.swift */; };
 		CA0DE8EA9CA360F52FEAF39E /* Pods_ProjectEuler_Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C15A1D968C3D53007E5F77E /* Pods_ProjectEuler_Swift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,12 +47,14 @@
 		4C9F508B1DAB262200F172A2 /* ProjectEuler-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ProjectEuler-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9F508E1DAB262200F172A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4CC20B071DAB2A4D0065266B /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem.swift; path = Problems/Problem.swift; sourceTree = "<group>"; };
-		4CC20B091DAB2B090065266B /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		4CC20B0C1DAB2B650065266B /* Problem1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem1Tests.swift; path = Problems/Problem1Tests.swift; sourceTree = "<group>"; };
 		4CC20B0E1DAB2D880065266B /* Benchmark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Benchmark.framework; path = "../../Library/Developer/Xcode/DerivedData/ProjectEuler-Swift-ffxtluiboywhhqccygohefywirdq/Build/Products/Debug/Benchmark/Benchmark.framework"; sourceTree = "<group>"; };
 		4CC20B261DAB35F70065266B /* Problem2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem2Tests.swift; path = Problems/Problem2Tests.swift; sourceTree = "<group>"; };
 		4CC20B281DAB37460065266B /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem2.swift; path = Problems/Problem2.swift; sourceTree = "<group>"; };
 		4CC20B2B1DAB3F2B0065266B /* Problem3Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem3Tests.swift; path = Problems/Problem3Tests.swift; sourceTree = "<group>"; };
+		4CC20B2D1DAB3F9D0065266B /* Problem3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem3.swift; path = Problems/Problem3.swift; sourceTree = "<group>"; };
+		4CC20B2F1DAB3FAA0065266B /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem1.swift; path = Problems/Problem1.swift; sourceTree = "<group>"; };
+		4CC20B331DAB44D60065266B /* BenchMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchMark.swift; sourceTree = "<group>"; };
 		5712E1B5F439AA4A9BE1F736 /* Pods_ProjectEuler_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +112,7 @@
 			children = (
 				4CC20B061DAB2A340065266B /* Problems */,
 				4C9F508E1DAB262200F172A2 /* main.swift */,
+				4CC20B331DAB44D60065266B /* BenchMark.swift */,
 			);
 			path = "ProjectEuler-Swift";
 			sourceTree = "<group>";
@@ -115,8 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				4CC20B071DAB2A4D0065266B /* Problem.swift */,
-				4CC20B091DAB2B090065266B /* Problem1.swift */,
+				4CC20B2F1DAB3FAA0065266B /* Problem1.swift */,
 				4CC20B281DAB37460065266B /* Problem2.swift */,
+				4CC20B2D1DAB3F9D0065266B /* Problem3.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -292,14 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CC20B321DAB40140065266B /* Problem3.swift in Sources */,
 				4C2A2BB31DAB26DC00C110FC /* ProjectEuler_Swift_Tests.swift in Sources */,
 				4CC20B2A1DAB3B4F0065266B /* Problem2.swift in Sources */,
 				4CC20B251DAB2F520065266B /* main.swift in Sources */,
+				4CC20B311DAB40120065266B /* Problem1.swift in Sources */,
 				4CC20B231DAB2F4F0065266B /* Problem.swift in Sources */,
 				4CC20B0D1DAB2B650065266B /* Problem1Tests.swift in Sources */,
 				4CC20B2C1DAB3F2B0065266B /* Problem3Tests.swift in Sources */,
 				4CC20B271DAB35F70065266B /* Problem2Tests.swift in Sources */,
-				4CC20B241DAB2F4F0065266B /* Problem1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +316,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC20B291DAB37460065266B /* Problem2.swift in Sources */,
-				4CC20B0A1DAB2B090065266B /* Problem1.swift in Sources */,
+				4CC20B341DAB44D60065266B /* BenchMark.swift in Sources */,
+				4CC20B301DAB3FAA0065266B /* Problem1.swift in Sources */,
+				4CC20B2E1DAB3F9D0065266B /* Problem3.swift in Sources */,
 				4C9F508F1DAB262200F172A2 /* main.swift in Sources */,
 				4CC20B081DAB2A4D0065266B /* Problem.swift in Sources */,
 			);
