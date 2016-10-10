@@ -15,6 +15,7 @@
 		4CC20B231DAB2F4F0065266B /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B071DAB2A4D0065266B /* Problem.swift */; };
 		4CC20B241DAB2F4F0065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B091DAB2B090065266B /* Problem1.swift */; };
 		4CC20B251DAB2F520065266B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9F508E1DAB262200F172A2 /* main.swift */; };
+		4CC20B271DAB35F70065266B /* Problem2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B261DAB35F70065266B /* Problem2Tests.swift */; };
 		CA0DE8EA9CA360F52FEAF39E /* Pods_ProjectEuler_Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C15A1D968C3D53007E5F77E /* Pods_ProjectEuler_Swift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		4CC20B091DAB2B090065266B /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		4CC20B0C1DAB2B650065266B /* Problem1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem1Tests.swift; path = Problems/Problem1Tests.swift; sourceTree = "<group>"; };
 		4CC20B0E1DAB2D880065266B /* Benchmark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Benchmark.framework; path = "../../Library/Developer/Xcode/DerivedData/ProjectEuler-Swift-ffxtluiboywhhqccygohefywirdq/Build/Products/Debug/Benchmark/Benchmark.framework"; sourceTree = "<group>"; };
+		4CC20B261DAB35F70065266B /* Problem2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem2Tests.swift; path = Problems/Problem2Tests.swift; sourceTree = "<group>"; };
 		5712E1B5F439AA4A9BE1F736 /* Pods_ProjectEuler_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				4CC20B0C1DAB2B650065266B /* Problem1Tests.swift */,
+				4CC20B261DAB35F70065266B /* Problem2Tests.swift */,
 			);
 			name = Problems;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				4CC20B251DAB2F520065266B /* main.swift in Sources */,
 				4CC20B231DAB2F4F0065266B /* Problem.swift in Sources */,
 				4CC20B0D1DAB2B650065266B /* Problem1Tests.swift in Sources */,
+				4CC20B271DAB35F70065266B /* Problem2Tests.swift in Sources */,
 				4CC20B241DAB2F4F0065266B /* Problem1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
