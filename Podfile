@@ -12,7 +12,7 @@ post_install do |installer|
 end
 
 target "ProjectEuler-Swift" do
-	pod 'Benchmark'
+	pod 'Benchmark', :git => 'https://github.com/cruisediary/Benchmark.git'
 end
 
 target "ProjectEuler-Swift-Tests" do
