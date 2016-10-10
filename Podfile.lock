@@ -1,27 +1,15 @@
 PODS:
-  - Benchmark (1.2)
   - Nimble (5.0.0)
   - Quick (0.10.0)
 
 DEPENDENCIES:
-  - Benchmark (from `https://github.com/cruisediary/Benchmark.git`)
   - Nimble
   - Quick
 
-EXTERNAL SOURCES:
-  Benchmark:
-    :git: https://github.com/cruisediary/Benchmark.git
-
-CHECKOUT OPTIONS:
-  Benchmark:
-    :commit: d2f71298a72cc14da299771dc204a6d10b8bebda
-    :git: https://github.com/cruisediary/Benchmark.git
-
 SPEC CHECKSUMS:
-  Benchmark: a226a41bd3e8eb71c9799aff5103f4be45b7fb9b
   Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
   Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
 
-PODFILE CHECKSUM: c80ec573388ce52f6d5259d26b7705d105ebf029
+PODFILE CHECKSUM: f88753c6c9080374b3fa37fb626331c7c8b9f667
 
 COCOAPODS: 1.1.0.rc.2

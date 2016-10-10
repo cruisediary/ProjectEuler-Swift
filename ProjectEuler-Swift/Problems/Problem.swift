@@ -9,5 +9,6 @@
 import Foundation
 
 protocol Problem {
+    func input(input: Int)
     func answer() -> Int
 }
