@@ -14,13 +14,15 @@
 import Foundation
 
 class Problem3: Problem {
+    
+    var name: String = "Problem3"
+    
     func answer(input: Int) -> Int {
         var findNumber = input
         var primes: [Int] = []
         var value = 2
         
         while value <= findNumber {
-            
             let result = primes.filter { (value % $0) == 0 }
             if result.count == 0 {
                 primes.append(value)

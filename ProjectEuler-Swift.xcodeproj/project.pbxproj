@@ -21,7 +21,8 @@
 		4CC20B301DAB3FAA0065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2F1DAB3FAA0065266B /* Problem1.swift */; };
 		4CC20B311DAB40120065266B /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2F1DAB3FAA0065266B /* Problem1.swift */; };
 		4CC20B321DAB40140065266B /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B2D1DAB3F9D0065266B /* Problem3.swift */; };
-		4CC20B341DAB44D60065266B /* BenchMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B331DAB44D60065266B /* BenchMark.swift */; };
+		4CC20B341DAB44D60065266B /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B331DAB44D60065266B /* Benchmark.swift */; };
+		4CC20B361DAB46E50065266B /* Benchmarkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC20B351DAB46E50065266B /* Benchmarkable.swift */; };
 		CA0DE8EA9CA360F52FEAF39E /* Pods_ProjectEuler_Swift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C15A1D968C3D53007E5F77E /* Pods_ProjectEuler_Swift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +55,8 @@
 		4CC20B2B1DAB3F2B0065266B /* Problem3Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem3Tests.swift; path = Problems/Problem3Tests.swift; sourceTree = "<group>"; };
 		4CC20B2D1DAB3F9D0065266B /* Problem3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem3.swift; path = Problems/Problem3.swift; sourceTree = "<group>"; };
 		4CC20B2F1DAB3FAA0065266B /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Problem1.swift; path = Problems/Problem1.swift; sourceTree = "<group>"; };
-		4CC20B331DAB44D60065266B /* BenchMark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenchMark.swift; sourceTree = "<group>"; };
+		4CC20B331DAB44D60065266B /* Benchmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		4CC20B351DAB46E50065266B /* Benchmarkable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benchmarkable.swift; sourceTree = "<group>"; };
 		5712E1B5F439AA4A9BE1F736 /* Pods_ProjectEuler_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectEuler_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,7 +114,8 @@
 			children = (
 				4CC20B061DAB2A340065266B /* Problems */,
 				4C9F508E1DAB262200F172A2 /* main.swift */,
-				4CC20B331DAB44D60065266B /* BenchMark.swift */,
+				4CC20B331DAB44D60065266B /* Benchmark.swift */,
+				4CC20B351DAB46E50065266B /* Benchmarkable.swift */,
 			);
 			path = "ProjectEuler-Swift";
 			sourceTree = "<group>";
@@ -316,7 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC20B291DAB37460065266B /* Problem2.swift in Sources */,
-				4CC20B341DAB44D60065266B /* BenchMark.swift in Sources */,
+				4CC20B361DAB46E50065266B /* Benchmarkable.swift in Sources */,
+				4CC20B341DAB44D60065266B /* Benchmark.swift in Sources */,
 				4CC20B301DAB3FAA0065266B /* Problem1.swift in Sources */,
 				4CC20B2E1DAB3F9D0065266B /* Problem3.swift in Sources */,
 				4C9F508F1DAB262200F172A2 /* main.swift in Sources */,

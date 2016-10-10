@@ -10,4 +10,5 @@ import Foundation
 
 protocol Problem {
     func answer(input: Int) -> Int
+    var name: String { get }
 }

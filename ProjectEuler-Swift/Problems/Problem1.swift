@@ -13,6 +13,9 @@
 import Foundation
 
 class Problem1: Problem {
+    
+    var name: String = "Problem1"
+    
     func answer(input: Int) -> Int {
         return (1...input-1)
             .filter { return $0 % 3 == 0 || $0 % 5 == 0 }

@@ -16,6 +16,8 @@ import Foundation
 
 class Problem2: Problem {
     
+    var name: String = "Problem2"
+    
     struct State {
         var value: (Int, Int)
         
